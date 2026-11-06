@@ -1,9 +1,7 @@
-x,y = map(input().split())
+x = input()
+num = x.split()
 lst = []
 
-for i in range(x):
-    int = int(x[i])
-    chr = chr(int)
-    lst.append(chr)
-    
+for i in num:
+    lst.append(chr(int(i)))
 print(lst)
